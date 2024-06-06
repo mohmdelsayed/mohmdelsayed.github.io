@@ -241,7 +241,10 @@
                         >arXiv</a
                       >
                       <a class="abstract btn btn-sm z-depth-0" role="button"
-                        >Abs</a
+                        >Abstract</a
+                      >
+                      <a class="abstract btn btn-sm z-depth-0" role="button"
+                        >BibTeX</a
                       >
                     </div>
 
@@ -250,6 +253,16 @@
                     <div class="abstract hidden">
                       <p>
                         Second-order information is valuable for many applications but challenging to compute. Several works focus on computing or approximating Hessian diagonals, but even this simplification introduces significant additional costs compared to computing a gradient. In the absence of efficient exact computation schemes for Hessian diagonals, we revisit an early approximation scheme proposed by Becker and LeCun (1989, BL89), which has a cost similar to gradients and appears to have been overlooked by the community. We introduce HesScale, an improvement over BL89, which adds negligible extra computation. On small networks, we find that this improvement is of higher quality than all alternatives, even those with theoretical guarantees, such as unbiasedness, while being much cheaper to compute. We use this insight in reinforcement learning problems where small networks are used and demonstrate HesScale in second-order optimization and scaling the step-size parameter. In our experiments, HesScale optimizes faster than existing methods and improves stability through step-size scaling. These findings are promising for scaling second-order methods in larger models in the future.
+                      </p>
+                    </div>
+                    <div class="abstract bibtex hidden">
+                      <p>
+                        @inproceedings{elsayed2024hesscale,
+                          title = {Revisiting Scalable Hessian Diagonal Approximations for Applications in Reinforcement Learning},
+                          author = {Mohamed Elsayed and Homayoon Farrahi and Felix Dangel and A. Rupam Mahmood},
+                          booktitle = {International Conference on Machine Learning (ICML)},
+                          year = {2024}
+                        }
                       </p>
                     </div>
                   </div>
