@@ -372,6 +372,14 @@
                         target="_blank"
                         >arXiv</a
                       >
+                      <a class="abstract btn btn-sm z-depth-0" role="button"
+                        >Abstract</a
+                      >
+                    </div>
+                    <div class="abstract hidden">
+                      <p>
+                        Natural intelligence processes experience as a continuous stream, sensing, acting, and learning moment-by-moment in real time. Streaming learning, the modus operandi of classic reinforcement learning (RL) algorithms like Q-learning and TD, mimics natural learning by using the most recent sample without storing it. This approach is also ideal for resource-constrained, communication-limited, and privacy-sensitive applications. However, in deep RL, learners almost always use batch updates and replay buffers, making them computationally expensive and incompatible with streaming learning. Although the prevalence of batch deep RL is often attributed to its sample efficiency, a more critical reason for the absence of streaming deep RL is its frequent instability and failure to learn, which we refer to as stream barrier. This paper introduces the stream-x algorithms, the first class of deep RL algorithms to overcome stream barrier for both prediction and control and match sample efficiency of batch RL. Through experiments in Mujoco Gym, DM Control Suite, and Atari Games, we demonstrate stream barrier in existing algorithms and successful stable learning with our stream-x algorithms: stream Q, stream AC, and stream TD, achieving the best model-free performance in DM Control Dog environments. A set of common techniques underlies the stream-x algorithms, enabling their success with a single set of hyperparameters and allowing for easy extension to other algorithms, thereby reviving streaming RL.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -406,6 +414,14 @@
                         target="_blank"
                         >PDF</a
                       >
+                      <a class="abstract btn btn-sm z-depth-0" role="button"
+                        >Abstract</a
+                      >
+                    </div>
+                    <div class="abstract hidden">
+                      <p>
+                        Deep representation learning methods struggle with continual learning, suffering from both catastrophic forgetting of useful units and loss of plasticity, often due to rigid and unuseful units. While many methods address these two issues separately, only a few currently deal with both simultaneously. In this paper, we introduce Utility-based Perturbed Gradient Descent (UPGD) as a novel approach for the continual learning of representations. UPGD combines gradient updates with perturbations, where it applies smaller modifications to more useful units, protecting them from forgetting, and larger modifications to less useful units, rejuvenating their plasticity. We adopt the challenging setup of streaming learning as the testing ground and design continual learning problems with hundreds of non-stationarities and unknown task boundaries. We show that many existing methods suffer from at least one of the issues, predominantly manifested by their decreasing accuracy over tasks. On the other hand, UPGD continues to improve performance and surpasses all methods in all problems, being demonstrably capable of addressing both issues.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -441,6 +457,14 @@
                         target="_blank"
                         >PDF</a
                       >
+                      <a class="abstract btn btn-sm z-depth-0" role="button"
+                        >Abstract</a
+                      >
+                    </div>
+                    <div class="abstract hidden">
+                      <p>
+                        Second-order optimization uses curvature information about the objective function, which can help in faster convergence. However, such methods typically require expensive computation of the Hessian matrix, preventing their usage in a scalable way. The absence of efficient ways of computation drove the most widely used methods to focus on first-order approximations that do not capture the curvature information. In this paper, we develop HesScale, a scalable approach to approximating the diagonal of the Hessian matrix, to incorporate second-order information in a computationally efficient manner. We show that HesScale has the same computational complexity as backpropagation. Our results on supervised classification show that HesScale achieves high approximation accuracy, allowing for scalable and efficient second-order optimization.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -476,6 +500,14 @@
                         target="_blank"
                         >PDF</a
                       >
+                      <a class="abstract btn btn-sm z-depth-0" role="button"
+                        >Abstract</a
+                      >
+                    </div>
+                    <div class="abstract hidden">
+                      <p>
+                        The unprotected left turn is one of the most difficult problems in real-world autonomous driving. Its difficulty is due to the diverse and hard-to-predict interactions among possibly many road participants in the absence of traffic lights. To help address this challenge, we developed a new benchmark called ULTRA (Unprotected Left Turn for Robust Agents). ULTRA offers controllable diversity and a way to measure the generalization performance of agents. It is also readily expandable as more scenarios and behavior models are developed and incorporated. Unlike prior benchmarks, ULTRA is explicitly focused on providing a rich diversity of interaction scenarios. In this way, it challenges the RL community to develop algorithms and driving policies that generalize better and are thereby more suitable for real-world autonomous driving.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -519,6 +551,14 @@
                         target="_blank"
                         >PDF</a
                       >
+                      <a class="abstract btn btn-sm z-depth-0" role="button"
+                        >Abstract</a
+                      >
+                    </div>
+                    <div class="abstract hidden">
+                      <p>
+                        Modern representation learning methods perform well on oﬄine tasks and primarily revolve around batch updates. However, batch updates preclude those methods from focusing on new experience, which is essential for fast online adaptation. In this thesis, we study an online and incremental representation search algorithm called Generate and Test, which continually replaces the least useful features with newly generated features. In this algorithm, the utility of features is estimated by a heuristic tester based on the magnitude of their corresponding outgoing weights; the least useful features are those with the smallest weight magnitudes. Generate and Test was developed and evaluated only on single-output regression problems. However, it has not been investigated in multi-output regression problems. Moreover, it is not clear that magnitude-based testers are appropriate for other outputs such as softmax. In this thesis, we investigate Generate and Test in these new cases and introduce testbeds for online representation learning in multi-output regression, classification, and reinforcement learning environments with discrete action spaces. We show that magnitude-based feature utility may give wrong estimates of the utility when softmax outputs are used, for example, in classification and discrete control tasks. We propose a new tester to extend the scope of the Generate and Test algorithm to these cases. We empirically show that this new tester can improve representations better than the magnitude-based tester. Thus, ours is the first work to make the Generate and Test algorithm applicable beyond supervised regression tasks.
+                      </p>
                     </div>
                   </div>
                 </div>
