@@ -415,6 +415,47 @@
           <div class="publications">
             <h4 class="post-title">Workshops and Preprints:</h4>
             <br />
+            <!-- multi-stream sequence learning -->
+            <ol class="bibliography">
+              <li>
+                <div class="row">
+                  <div class="col-sm-2 abbr">
+                    <abbr class="badge">ICML</abbr>
+                  </div>
+                  <div id="stream_drl" class="col-sm-8">
+                    <div class="title">
+                      Multi-stream Sequence Learning
+                    </div>
+                    <div class="author">
+                      <em>Elsayed, M.</em>, & Mahmood, A. R.,
+                    </div>
+
+                    <div class="periodical">
+                      <em>ICML Workshop on Efficient Systems for Foundation Models</em>,
+
+                      2025
+                    </div>
+                    <div class="links">
+                      <a
+                        href="https://openreview.net/forum?id=VrowJCm6FY"
+                        class="btn btn-sm z-depth-0"
+                        role="button"
+                        target="_blank"
+                        >OpenReview</a
+                      >
+                      <a class="abstract btn btn-sm z-depth-0" role="button"
+                        >Abstract</a
+                      >
+                    </div>
+                    <div class="abstract hidden">
+                      <p>
+                      We re-evaluate the suitability of the independent and identically distributed (IID) training paradigm for sequence learning, where long data streams are segmented into shorter and shuffled chunks, thereby breaking their natural continuity and undermining long-range credit assignment. This paper offers multi-stream sequence learning, a training framework that presents multiple data streams in their natural order. To support this framework, we propose Memora, a recurrent-only architecture whose persistent hidden states make it more suitable for sequence learning than Transformers. Memora builds on Gated Linear Recurrent Unit (GLRU)---a new lightweight recurrent unit designed for efficient parallel training and robust temporal reasoning---and achieves effective learning on long byte-level sequences. Our experiments on structured and byte-level benchmarks demonstrate that models trained under the multi-stream sequence learning framework consistently outperform standard recurrent and state-space models trained with IID training setting, underscoring the importance of preserving continuity in sequence learning.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ol>
             <!-- Streaming DRL -->
             <ol class="bibliography">
               <li>
@@ -706,7 +747,7 @@
         <!-- &copy; Copyright 2021 Mohamed  Elsayed.
      -->
 
-        Last updated: Oct 20, 2024.
+        Last updated: Jul 10, 2025.
       </div>
     </footer>
   </body>
