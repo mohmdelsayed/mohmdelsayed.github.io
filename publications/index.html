@@ -168,6 +168,106 @@
           <div class="publications">
             <h4 class="post-title">Conferences:</h4>
             <br />
+              <!-- RLC Differential TD -->
+              <ol class="bibliography">
+                <li>
+                  <div class="row">
+                    <div class="col-sm-2 abbr">
+                      <abbr class="badge">RLC</abbr>
+                    </div>
+
+                    <div id="differential_td" class="col-sm-8">
+                      <div class="title">
+                        Extending Differential Temporal Difference Methods for Episodic Problems
+                      </div>
+                      <div class="author">
+                        De Asis, K., <em>Elsayed, M.</em>, & He, J.,
+                      </div>
+
+                      <div class="periodical">
+                        <em>Reinforcement Learning (RLC),</em>
+
+                        2026
+                      </div>
+
+                      <div class="links">
+                        <a
+                          href="https://arxiv.org/pdf/2605.04368"
+                          class="btn btn-sm z-depth-0"
+                          role="button"
+                          target="_blank"
+                          >PDF</a
+                        >
+                        <a
+                          href="https://arxiv.org/abs/2605.04368"
+                          class="btn btn-sm z-depth-0"
+                          role="button"
+                          target="_blank"
+                          >arXiv</a
+                        >
+                        <a class="abstract btn btn-sm z-depth-0" role="button"
+                          >Abstract</a
+                        >
+                      </div>
+                      <div class="abstract hidden">
+                        <p>
+                          Differential temporal difference (TD) methods are value-based reinforcement learning algorithms that have been proposed for infinite-horizon problems. They rely on reward centering, where each reward is centered by the average reward. This keeps the return bounded and removes a value function's state-independent offset. However, reward centering can alter the optimal policy in episodic problems, limiting its applicability. Motivated by recent works that emphasize the role of normalization in streaming deep reinforcement learning, we study reward centering in episodic problems and propose a generalization of differential TD. We prove that this generalization maintains the ordering of policies in the presence of termination, and thus extends differential TD to episodic problems. We show equivalence with a form of linear TD, thereby inheriting theoretical guarantees that have been shown for those algorithms. We then extend several streaming reinforcement learning algorithms to their differential counterparts. Across a range of base algorithms and environments, we empirically validate that reward centering can improve sample efficiency in episodic problems.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ol>
+              <!-- ICML Intentional Updates -->
+              <ol class="bibliography">
+                <li>
+                  <div class="row">
+                    <div class="col-sm-2 abbr">
+                      <abbr class="badge">ICML</abbr>
+                    </div>
+
+                    <div id="intentional_updates" class="col-sm-8">
+                      <div class="title">
+                        Intentional Updates for Streaming Reinforcement Learning
+                      </div>
+                      <div class="author">
+                        Sharifnassab, A., <em>Elsayed, M.</em>, De Asis, K., Mahmood, A. R., & Sutton, R. S.,
+                      </div>
+
+                      <div class="periodical">
+                        <em>International Conference on Machine Learning (ICML),</em>
+
+                        2026
+                      </div>
+
+                      <div class="links">
+                        <a
+                          href="https://arxiv.org/pdf/2604.19033"
+                          class="btn btn-sm z-depth-0"
+                          role="button"
+                          target="_blank"
+                          >PDF</a
+                        >
+                        <a
+                          href="https://arxiv.org/abs/2604.19033"
+                          class="btn btn-sm z-depth-0"
+                          role="button"
+                          target="_blank"
+                          >arXiv</a
+                        >
+                        <a class="abstract btn btn-sm z-depth-0" role="button"
+                          >Abstract</a
+                        >
+                      </div>
+                      <div class="abstract hidden">
+                        <p>
+                          In gradient-based learning, a step size chosen in parameter units does not produce a predictable per-step change in function output. This often leads to instability in the streaming setting (i.e., batch size=1), where stochasticity is not averaged out and update magnitudes can momentarily become arbitrarily big or small. Instead, we propose intentional updates: first specify the intended outcome of an update and then solve for the step size that approximately achieves it. This strategy has precedent in online supervised linear regression via Normalized Least Mean Squares algorithm, which selects a step size to yield a specified change in the function output proportional to the current error. We extend this principle to streaming deep reinforcement learning by defining appropriate intended outcomes: Intentional TD aims for a fixed fractional reduction of the TD error, and Intentional Policy Gradient aims for a bounded per-step change in the policy, limiting local KL divergence. We propose practical algorithms combining eligibility traces and diagonal scaling. Empirically, these methods yield state-of-the-art streaming performance, frequently performing on par with batch and replay-buffer approaches.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ol>
             <!-- NeurIPS AVG -->
             <ol class="bibliography">
               <li>
@@ -754,7 +854,7 @@
         <!-- &copy; Copyright 2021 Mohamed  Elsayed.
      -->
 
-        Last updated: Jul 10, 2025.
+        Last updated: May 9, 2026.
       </div>
     </footer>
   </body>
